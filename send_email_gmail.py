@@ -13,9 +13,9 @@ def enviar_email():
     """
     #create email struct
     msg = email.message.Message()
-    msg['Subject'] = "Email automation"
+    msg['Subject'] = "Your Headline"
     msg['From'] = 'davypedro@mat.ci.ufpb.br'
-    msg['To'] = 'davypedro@mat.ci.ufpb.br'
+    msg['To'] = 'youremail@gmail.com'
     password = 'write_your_password_here' 
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(email_body)
