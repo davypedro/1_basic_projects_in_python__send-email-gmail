@@ -5,7 +5,7 @@ import email.message
 gmail is a very secure tool. It prevents you from receiving code-sent emails.
 For this script to work, you must enable the less secure app access option in your g-mail"""
 
-def enviar_email():
+def send_email():
     #body of the email you are going to write. Note that this is an HTML
     email_body = f"""
     <p>Hello,</p>  
@@ -29,5 +29,5 @@ def enviar_email():
     print('Your email has been sent successfully')
 
 #function call
-enviar_email()
+send_email()
 
